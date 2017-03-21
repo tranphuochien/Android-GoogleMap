@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.op.tutorial678.MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/tutorial6But"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutotial 6"
+                android:onClick="onClickTutorial6"/>
+
+            <Button
+                android:id="@+id/tutorial7But"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutotial 7"
+                android:onClick="onClickTutorial7"/>
+
+            <Button
+                android:id="@+id/tutorial8But"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutotial 8"
+                android:onClick="onClickTutorial8"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/tutorial9But"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickTutorial9"
+                android:text="Tutotial 9-10" />
+
+            <Button
+                android:id="@+id/tutorial11But"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickTutorial11"
+                android:text="Tutotial 11" />
+
+            <Button
+                android:id="@+id/myMapBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickMyMap"
+                android:text="My map" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/myCustomMarkerMapBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickMyCustomMarkerMap"
+                android:text="Custom marker" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
